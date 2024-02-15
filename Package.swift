@@ -22,7 +22,7 @@ let package = Package(
         .testTarget(
             name: "DSPokemonTests",
             dependencies: ["DSPokemon"],
-            path: "DSPokemon/Tests/DSPokemonTests"
+            path: "DSPokemon/Tests"
         ),
     ]
 )
