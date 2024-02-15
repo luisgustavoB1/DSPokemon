@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EB84D922B7A9F78001CE127 /* DSPokemonExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB84D912B7A9F78001CE127 /* DSPokemonExampleApp.swift */; };
-		6EB84D942B7A9F78001CE127 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB84D932B7A9F78001CE127 /* ContentView.swift */; };
-		6EB84D962B7A9F7B001CE127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB84D952B7A9F7B001CE127 /* Assets.xcassets */; };
-		6EB84D9A2B7A9F7B001CE127 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB84D992B7A9F7B001CE127 /* Preview Assets.xcassets */; };
-		6EB84DA42B7A9F7B001CE127 /* DSPokemonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB84DA32B7A9F7B001CE127 /* DSPokemonExampleTests.swift */; };
-		6EB84DAE2B7A9F7B001CE127 /* DSPokemonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB84DAD2B7A9F7B001CE127 /* DSPokemonExampleUITests.swift */; };
-		6EB84DB02B7A9F7B001CE127 /* DSPokemonExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB84DAF2B7A9F7B001CE127 /* DSPokemonExampleUITestsLaunchTests.swift */; };
+		6E30096D2B7EA05B002648B8 /* DSPokemon in Frameworks */ = {isa = PBXBuildFile; productRef = 6E30096C2B7EA05B002648B8 /* DSPokemon */; };
+		6EFB402F2B7E9D88006206F0 /* DSPokemonExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB402E2B7E9D88006206F0 /* DSPokemonExampleApp.swift */; };
+		6EFB40312B7E9D88006206F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB40302B7E9D88006206F0 /* ContentView.swift */; };
+		6EFB40332B7E9D8A006206F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFB40322B7E9D8A006206F0 /* Assets.xcassets */; };
+		6EFB40372B7E9D8A006206F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFB40362B7E9D8A006206F0 /* Preview Assets.xcassets */; };
+		6EFB40412B7E9D8A006206F0 /* DSPokemonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB40402B7E9D8A006206F0 /* DSPokemonExampleTests.swift */; };
+		6EFB404B2B7E9D8A006206F0 /* DSPokemonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB404A2B7E9D8A006206F0 /* DSPokemonExampleUITests.swift */; };
+		6EFB404D2B7E9D8A006206F0 /* DSPokemonExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB404C2B7E9D8A006206F0 /* DSPokemonExampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EB84DA02B7A9F7B001CE127 /* PBXContainerItemProxy */ = {
+		6EFB403D2B7E9D8A006206F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EB84D862B7A9F78001CE127 /* Project object */;
+			containerPortal = 6EFB40232B7E9D88006206F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EB84D8D2B7A9F78001CE127;
+			remoteGlobalIDString = 6EFB402A2B7E9D88006206F0;
 			remoteInfo = DSPokemonExample;
 		};
-		6EB84DAA2B7A9F7B001CE127 /* PBXContainerItemProxy */ = {
+		6EFB40472B7E9D8A006206F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EB84D862B7A9F78001CE127 /* Project object */;
+			containerPortal = 6EFB40232B7E9D88006206F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EB84D8D2B7A9F78001CE127;
+			remoteGlobalIDString = 6EFB402A2B7E9D88006206F0;
 			remoteInfo = DSPokemonExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6EB84D8E2B7A9F78001CE127 /* DSPokemonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPokemonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB84D912B7A9F78001CE127 /* DSPokemonExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleApp.swift; sourceTree = "<group>"; };
-		6EB84D932B7A9F78001CE127 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6EB84D952B7A9F7B001CE127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EB84D972B7A9F7B001CE127 /* DSPokemonExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSPokemonExample.entitlements; sourceTree = "<group>"; };
-		6EB84D992B7A9F7B001CE127 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6EB84D9F2B7A9F7B001CE127 /* DSPokemonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPokemonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB84DA32B7A9F7B001CE127 /* DSPokemonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleTests.swift; sourceTree = "<group>"; };
-		6EB84DA92B7A9F7B001CE127 /* DSPokemonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPokemonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EB84DAD2B7A9F7B001CE127 /* DSPokemonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleUITests.swift; sourceTree = "<group>"; };
-		6EB84DAF2B7A9F7B001CE127 /* DSPokemonExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EFB402B2B7E9D88006206F0 /* DSPokemonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPokemonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFB402E2B7E9D88006206F0 /* DSPokemonExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleApp.swift; sourceTree = "<group>"; };
+		6EFB40302B7E9D88006206F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EFB40322B7E9D8A006206F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EFB40342B7E9D8A006206F0 /* DSPokemonExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSPokemonExample.entitlements; sourceTree = "<group>"; };
+		6EFB40362B7E9D8A006206F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EFB403C2B7E9D8A006206F0 /* DSPokemonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPokemonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFB40402B7E9D8A006206F0 /* DSPokemonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleTests.swift; sourceTree = "<group>"; };
+		6EFB40462B7E9D8A006206F0 /* DSPokemonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPokemonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFB404A2B7E9D8A006206F0 /* DSPokemonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleUITests.swift; sourceTree = "<group>"; };
+		6EFB404C2B7E9D8A006206F0 /* DSPokemonExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPokemonExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EB84D8B2B7A9F78001CE127 /* Frameworks */ = {
+		6EFB40282B7E9D88006206F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E30096D2B7EA05B002648B8 /* DSPokemon in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFB40392B7E9D8A006206F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB84D9C2B7A9F7B001CE127 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EB84DA62B7A9F7B001CE127 /* Frameworks */ = {
+		6EFB40432B7E9D8A006206F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,59 +74,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6EB84D852B7A9F78001CE127 = {
+		6E30096B2B7EA05B002648B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84D902B7A9F78001CE127 /* DSPokemonExample */,
-				6EB84DA22B7A9F7B001CE127 /* DSPokemonExampleTests */,
-				6EB84DAC2B7A9F7B001CE127 /* DSPokemonExampleUITests */,
-				6EB84D8F2B7A9F78001CE127 /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFB40222B7E9D88006206F0 = {
+			isa = PBXGroup;
+			children = (
+				6EFB402D2B7E9D88006206F0 /* DSPokemonExample */,
+				6EFB403F2B7E9D8A006206F0 /* DSPokemonExampleTests */,
+				6EFB40492B7E9D8A006206F0 /* DSPokemonExampleUITests */,
+				6EFB402C2B7E9D88006206F0 /* Products */,
+				6E30096B2B7EA05B002648B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		6EB84D8F2B7A9F78001CE127 /* Products */ = {
+		6EFB402C2B7E9D88006206F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84D8E2B7A9F78001CE127 /* DSPokemonExample.app */,
-				6EB84D9F2B7A9F7B001CE127 /* DSPokemonExampleTests.xctest */,
-				6EB84DA92B7A9F7B001CE127 /* DSPokemonExampleUITests.xctest */,
+				6EFB402B2B7E9D88006206F0 /* DSPokemonExample.app */,
+				6EFB403C2B7E9D8A006206F0 /* DSPokemonExampleTests.xctest */,
+				6EFB40462B7E9D8A006206F0 /* DSPokemonExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EB84D902B7A9F78001CE127 /* DSPokemonExample */ = {
+		6EFB402D2B7E9D88006206F0 /* DSPokemonExample */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84D912B7A9F78001CE127 /* DSPokemonExampleApp.swift */,
-				6EB84D932B7A9F78001CE127 /* ContentView.swift */,
-				6EB84D952B7A9F7B001CE127 /* Assets.xcassets */,
-				6EB84D972B7A9F7B001CE127 /* DSPokemonExample.entitlements */,
-				6EB84D982B7A9F7B001CE127 /* Preview Content */,
+				6EFB402E2B7E9D88006206F0 /* DSPokemonExampleApp.swift */,
+				6EFB40302B7E9D88006206F0 /* ContentView.swift */,
+				6EFB40322B7E9D8A006206F0 /* Assets.xcassets */,
+				6EFB40342B7E9D8A006206F0 /* DSPokemonExample.entitlements */,
+				6EFB40352B7E9D8A006206F0 /* Preview Content */,
 			);
 			path = DSPokemonExample;
 			sourceTree = "<group>";
 		};
-		6EB84D982B7A9F7B001CE127 /* Preview Content */ = {
+		6EFB40352B7E9D8A006206F0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84D992B7A9F7B001CE127 /* Preview Assets.xcassets */,
+				6EFB40362B7E9D8A006206F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6EB84DA22B7A9F7B001CE127 /* DSPokemonExampleTests */ = {
+		6EFB403F2B7E9D8A006206F0 /* DSPokemonExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84DA32B7A9F7B001CE127 /* DSPokemonExampleTests.swift */,
+				6EFB40402B7E9D8A006206F0 /* DSPokemonExampleTests.swift */,
 			);
 			path = DSPokemonExampleTests;
 			sourceTree = "<group>";
 		};
-		6EB84DAC2B7A9F7B001CE127 /* DSPokemonExampleUITests */ = {
+		6EFB40492B7E9D8A006206F0 /* DSPokemonExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6EB84DAD2B7A9F7B001CE127 /* DSPokemonExampleUITests.swift */,
-				6EB84DAF2B7A9F7B001CE127 /* DSPokemonExampleUITestsLaunchTests.swift */,
+				6EFB404A2B7E9D8A006206F0 /* DSPokemonExampleUITests.swift */,
+				6EFB404C2B7E9D8A006206F0 /* DSPokemonExampleUITestsLaunchTests.swift */,
 			);
 			path = DSPokemonExampleUITests;
 			sourceTree = "<group>";
@@ -132,83 +142,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EB84D8D2B7A9F78001CE127 /* DSPokemonExample */ = {
+		6EFB402A2B7E9D88006206F0 /* DSPokemonExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB84DB32B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExample" */;
+			buildConfigurationList = 6EFB40502B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExample" */;
 			buildPhases = (
-				6EB84D8A2B7A9F78001CE127 /* Sources */,
-				6EB84D8B2B7A9F78001CE127 /* Frameworks */,
-				6EB84D8C2B7A9F78001CE127 /* Resources */,
+				6EFB40272B7E9D88006206F0 /* Sources */,
+				6EFB40282B7E9D88006206F0 /* Frameworks */,
+				6EFB40292B7E9D88006206F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DSPokemonExample;
+			packageProductDependencies = (
+				6E30096C2B7EA05B002648B8 /* DSPokemon */,
+			);
 			productName = DSPokemonExample;
-			productReference = 6EB84D8E2B7A9F78001CE127 /* DSPokemonExample.app */;
+			productReference = 6EFB402B2B7E9D88006206F0 /* DSPokemonExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EB84D9E2B7A9F7B001CE127 /* DSPokemonExampleTests */ = {
+		6EFB403B2B7E9D8A006206F0 /* DSPokemonExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB84DB62B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExampleTests" */;
+			buildConfigurationList = 6EFB40532B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExampleTests" */;
 			buildPhases = (
-				6EB84D9B2B7A9F7B001CE127 /* Sources */,
-				6EB84D9C2B7A9F7B001CE127 /* Frameworks */,
-				6EB84D9D2B7A9F7B001CE127 /* Resources */,
+				6EFB40382B7E9D8A006206F0 /* Sources */,
+				6EFB40392B7E9D8A006206F0 /* Frameworks */,
+				6EFB403A2B7E9D8A006206F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EB84DA12B7A9F7B001CE127 /* PBXTargetDependency */,
+				6EFB403E2B7E9D8A006206F0 /* PBXTargetDependency */,
 			);
 			name = DSPokemonExampleTests;
 			productName = DSPokemonExampleTests;
-			productReference = 6EB84D9F2B7A9F7B001CE127 /* DSPokemonExampleTests.xctest */;
+			productReference = 6EFB403C2B7E9D8A006206F0 /* DSPokemonExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6EB84DA82B7A9F7B001CE127 /* DSPokemonExampleUITests */ = {
+		6EFB40452B7E9D8A006206F0 /* DSPokemonExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EB84DB92B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExampleUITests" */;
+			buildConfigurationList = 6EFB40562B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExampleUITests" */;
 			buildPhases = (
-				6EB84DA52B7A9F7B001CE127 /* Sources */,
-				6EB84DA62B7A9F7B001CE127 /* Frameworks */,
-				6EB84DA72B7A9F7B001CE127 /* Resources */,
+				6EFB40422B7E9D8A006206F0 /* Sources */,
+				6EFB40432B7E9D8A006206F0 /* Frameworks */,
+				6EFB40442B7E9D8A006206F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EB84DAB2B7A9F7B001CE127 /* PBXTargetDependency */,
+				6EFB40482B7E9D8A006206F0 /* PBXTargetDependency */,
 			);
 			name = DSPokemonExampleUITests;
 			productName = DSPokemonExampleUITests;
-			productReference = 6EB84DA92B7A9F7B001CE127 /* DSPokemonExampleUITests.xctest */;
+			productReference = 6EFB40462B7E9D8A006206F0 /* DSPokemonExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6EB84D862B7A9F78001CE127 /* Project object */ = {
+		6EFB40232B7E9D88006206F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					6EB84D8D2B7A9F78001CE127 = {
+					6EFB402A2B7E9D88006206F0 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					6EB84D9E2B7A9F7B001CE127 = {
+					6EFB403B2B7E9D8A006206F0 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 6EB84D8D2B7A9F78001CE127;
+						TestTargetID = 6EFB402A2B7E9D88006206F0;
 					};
-					6EB84DA82B7A9F7B001CE127 = {
+					6EFB40452B7E9D8A006206F0 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 6EB84D8D2B7A9F78001CE127;
+						TestTargetID = 6EFB402A2B7E9D88006206F0;
 					};
 				};
 			};
-			buildConfigurationList = 6EB84D892B7A9F78001CE127 /* Build configuration list for PBXProject "DSPokemonExample" */;
+			buildConfigurationList = 6EFB40262B7E9D88006206F0 /* Build configuration list for PBXProject "DSPokemonExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +229,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 6EB84D852B7A9F78001CE127;
-			productRefGroup = 6EB84D8F2B7A9F78001CE127 /* Products */;
+			mainGroup = 6EFB40222B7E9D88006206F0;
+			productRefGroup = 6EFB402C2B7E9D88006206F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EB84D8D2B7A9F78001CE127 /* DSPokemonExample */,
-				6EB84D9E2B7A9F7B001CE127 /* DSPokemonExampleTests */,
-				6EB84DA82B7A9F7B001CE127 /* DSPokemonExampleUITests */,
+				6EFB402A2B7E9D88006206F0 /* DSPokemonExample */,
+				6EFB403B2B7E9D8A006206F0 /* DSPokemonExampleTests */,
+				6EFB40452B7E9D8A006206F0 /* DSPokemonExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6EB84D8C2B7A9F78001CE127 /* Resources */ = {
+		6EFB40292B7E9D88006206F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB84D9A2B7A9F7B001CE127 /* Preview Assets.xcassets in Resources */,
-				6EB84D962B7A9F7B001CE127 /* Assets.xcassets in Resources */,
+				6EFB40372B7E9D8A006206F0 /* Preview Assets.xcassets in Resources */,
+				6EFB40332B7E9D8A006206F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB84D9D2B7A9F7B001CE127 /* Resources */ = {
+		6EFB403A2B7E9D8A006206F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB84DA72B7A9F7B001CE127 /* Resources */ = {
+		6EFB40442B7E9D8A006206F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +268,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6EB84D8A2B7A9F78001CE127 /* Sources */ = {
+		6EFB40272B7E9D88006206F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB84D942B7A9F78001CE127 /* ContentView.swift in Sources */,
-				6EB84D922B7A9F78001CE127 /* DSPokemonExampleApp.swift in Sources */,
+				6EFB40312B7E9D88006206F0 /* ContentView.swift in Sources */,
+				6EFB402F2B7E9D88006206F0 /* DSPokemonExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB84D9B2B7A9F7B001CE127 /* Sources */ = {
+		6EFB40382B7E9D8A006206F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB84DA42B7A9F7B001CE127 /* DSPokemonExampleTests.swift in Sources */,
+				6EFB40412B7E9D8A006206F0 /* DSPokemonExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EB84DA52B7A9F7B001CE127 /* Sources */ = {
+		6EFB40422B7E9D8A006206F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB84DB02B7A9F7B001CE127 /* DSPokemonExampleUITestsLaunchTests.swift in Sources */,
-				6EB84DAE2B7A9F7B001CE127 /* DSPokemonExampleUITests.swift in Sources */,
+				6EFB404D2B7E9D8A006206F0 /* DSPokemonExampleUITestsLaunchTests.swift in Sources */,
+				6EFB404B2B7E9D8A006206F0 /* DSPokemonExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EB84DA12B7A9F7B001CE127 /* PBXTargetDependency */ = {
+		6EFB403E2B7E9D8A006206F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EB84D8D2B7A9F78001CE127 /* DSPokemonExample */;
-			targetProxy = 6EB84DA02B7A9F7B001CE127 /* PBXContainerItemProxy */;
+			target = 6EFB402A2B7E9D88006206F0 /* DSPokemonExample */;
+			targetProxy = 6EFB403D2B7E9D8A006206F0 /* PBXContainerItemProxy */;
 		};
-		6EB84DAB2B7A9F7B001CE127 /* PBXTargetDependency */ = {
+		6EFB40482B7E9D8A006206F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EB84D8D2B7A9F78001CE127 /* DSPokemonExample */;
-			targetProxy = 6EB84DAA2B7A9F7B001CE127 /* PBXContainerItemProxy */;
+			target = 6EFB402A2B7E9D88006206F0 /* DSPokemonExample */;
+			targetProxy = 6EFB40472B7E9D8A006206F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6EB84DB12B7A9F7B001CE127 /* Debug */ = {
+		6EFB404E2B7E9D8A006206F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		6EB84DB22B7A9F7B001CE127 /* Release */ = {
+		6EFB404F2B7E9D8A006206F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +424,7 @@
 			};
 			name = Release;
 		};
-		6EB84DB42B7A9F7B001CE127 /* Debug */ = {
+		6EFB40512B7E9D8A006206F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,15 +455,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luisgustavo.DSPokemonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6EB84DB52B7A9F7B001CE127 /* Release */ = {
+		6EFB40522B7E9D8A006206F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -481,15 +493,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luisgustavo.DSPokemonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		6EB84DB72B7A9F7B001CE127 /* Debug */ = {
+		6EFB40542B7E9D8A006206F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,16 +515,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luisgustavo.DSPokemonExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSPokemonExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSPokemonExample";
 			};
 			name = Debug;
 		};
-		6EB84DB82B7A9F7B001CE127 /* Release */ = {
+		6EFB40552B7E9D8A006206F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,16 +538,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luisgustavo.DSPokemonExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSPokemonExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSPokemonExample";
 			};
 			name = Release;
 		};
-		6EB84DBA2B7A9F7B001CE127 /* Debug */ = {
+		6EFB40572B7E9D8A006206F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -559,7 +568,7 @@
 			};
 			name = Debug;
 		};
-		6EB84DBB2B7A9F7B001CE127 /* Release */ = {
+		6EFB40582B7E9D8A006206F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -584,43 +593,50 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EB84D892B7A9F78001CE127 /* Build configuration list for PBXProject "DSPokemonExample" */ = {
+		6EFB40262B7E9D88006206F0 /* Build configuration list for PBXProject "DSPokemonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB84DB12B7A9F7B001CE127 /* Debug */,
-				6EB84DB22B7A9F7B001CE127 /* Release */,
+				6EFB404E2B7E9D8A006206F0 /* Debug */,
+				6EFB404F2B7E9D8A006206F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB84DB32B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExample" */ = {
+		6EFB40502B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB84DB42B7A9F7B001CE127 /* Debug */,
-				6EB84DB52B7A9F7B001CE127 /* Release */,
+				6EFB40512B7E9D8A006206F0 /* Debug */,
+				6EFB40522B7E9D8A006206F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB84DB62B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExampleTests" */ = {
+		6EFB40532B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB84DB72B7A9F7B001CE127 /* Debug */,
-				6EB84DB82B7A9F7B001CE127 /* Release */,
+				6EFB40542B7E9D8A006206F0 /* Debug */,
+				6EFB40552B7E9D8A006206F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EB84DB92B7A9F7B001CE127 /* Build configuration list for PBXNativeTarget "DSPokemonExampleUITests" */ = {
+		6EFB40562B7E9D8A006206F0 /* Build configuration list for PBXNativeTarget "DSPokemonExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EB84DBA2B7A9F7B001CE127 /* Debug */,
-				6EB84DBB2B7A9F7B001CE127 /* Release */,
+				6EFB40572B7E9D8A006206F0 /* Debug */,
+				6EFB40582B7E9D8A006206F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E30096C2B7EA05B002648B8 /* DSPokemon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DSPokemon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6EB84D862B7A9F78001CE127 /* Project object */;
+	rootObject = 6EFB40232B7E9D88006206F0 /* Project object */;
 }

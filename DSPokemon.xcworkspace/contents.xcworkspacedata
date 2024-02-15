@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:DSPokemonExample/DSPokemonExample.xcodeproj">
+      location = "group:.DSPokemonExample/DSPokemonExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:DSPokemon/DSPokemon.xcodeproj">
+      location = "group:">
    </FileRef>
 </Workspace>
